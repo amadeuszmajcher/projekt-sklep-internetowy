@@ -1246,68 +1246,68 @@
     },
     {
       "id": 62,
-      "gender": "children",
-      "category": "obuwie",
-      "subcategory": "sneakersy",
-      "productName": "Szybkie butki",
-      "brand": "Producent 2",
-      "pricePLN": 199,
+      "type": "phone",
+      "category": "etui",
+      "subcategory": "iPhone 17 Pro Max",
+      "productName": "Wzmocnione etui na Apple iPhone 17 Pro Max",
+      "brand": "XYZ",
+      "pricePLN": 149,
       "priceUSD": 39,
       "photos": [
-        "http://localhost:3000/product-photos/children-shoes-2.jpg",
-        "http://localhost:3000/product-photos/children-shoes-1.jpg",
-        "http://localhost:3000/product-photos/children-shoes-3.jpg"
+        "http://localhost:3000/product-photos/etui-iphone-1.png",
+        "http://localhost:3000/product-photos/etui-iphone-2.png",
+        "http://localhost:3000/product-photos/etui-iphone-3.png"
       ],
       "description": "Lorem ipsum dolor sit amet consectetur, adipisicing elit. Nulla facilis aperiam, magnam dolorum sit expedita nihil nostrum, voluptates temporibus voluptatum atque ullam molestiae provident dolore eligendi? Esse amet dolore illum.",
       "maintenanceInfo": "Nemo et nam quasi in suscipit earum odit laborum repellat quo dolore rem, sequi eaque sapiente quibu"
     },
     {
       "id": 63,
-      "gender": "children",
-      "category": "odziez",
-      "subcategory": "spodnie",
-      "productName": "Niebieskie spodnie",
-      "brand": "Sun zi",
-      "pricePLN": 299,
-      "priceUSD": 59,
+      "type": "phone",
+      "category": "etui",
+      "subcategory": "iPhone 17 Pro Max",
+      "productName": "Wzmocnione etui na Apple iPhone 17 Pro Max",
+      "brand": "XYZ",
+      "pricePLN": 149,
+      "priceUSD": 39,
       "photos": [
-        "http://localhost:3000/product-photos/children-trousers-1.jpg",
-        "http://localhost:3000/product-photos/children-trousers-2.jpg",
-        "http://localhost:3000/product-photos/children-trousers-3.jpg"
+        "http://localhost:3000/product-photos/etui-iphone-1.png",
+        "http://localhost:3000/product-photos/etui-iphone-2.png",
+        "http://localhost:3000/product-photos/etui-iphone-3.png"
       ],
       "description": "Lorem ipsum dolor sit amet consectetur, adipisicing elit. Nulla facilis aperiam, magnam dolorum sit expedita nihil nostrum, voluptates temporibus voluptatum atque ullam molestiae provident dolore eligendi? Esse amet dolore illum.",
       "maintenanceInfo": "Nemo et nam quasi in suscipit earum odit laborum repellat quo dolore rem, sequi eaque sapiente quibu"
     },
     {
       "id": 64,
-      "gender": "children",
-      "category": "odziez",
-      "subcategory": "spodnie",
-      "productName": "Różowe spodnie",
-      "brand": "Sun zi",
-      "pricePLN": 599,
-      "priceUSD": 119,
+      "type": "phone",
+      "category": "etui",
+      "subcategory": "iPhone 17 Pro Max",
+      "productName": "Wzmocnione etui na Apple iPhone 17 Pro Max",
+      "brand": "XYZ",
+      "pricePLN": 149,
+      "priceUSD": 39,
       "photos": [
-        "http://localhost:3000/product-photos/children-trousers-2.jpg",
-        "http://localhost:3000/product-photos/children-trousers-3.jpg",
-        "http://localhost:3000/product-photos/children-trousers-1.jpg"
+        "http://localhost:3000/product-photos/etui-iphone-1.png",
+        "http://localhost:3000/product-photos/etui-iphone-2.png",
+        "http://localhost:3000/product-photos/etui-iphone-3.png"
       ],
       "description": "Lorem ipsum dolor sit amet consectetur, adipisicing elit. Nulla facilis aperiam, magnam dolorum sit expedita nihil nostrum, voluptates temporibus voluptatum atque ullam molestiae provident dolore eligendi? Esse amet dolore illum.",
       "maintenanceInfo": "Nemo et nam quasi in suscipit earum odit laborum repellat quo dolore rem, sequi eaque sapiente quibu"
     },
     {
       "id": 66,
-      "gender": "children",
-      "category": "obuwie",
-      "subcategory": "eleganckie",
-      "productName": "Piękne butki",
-      "brand": "Producent 1",
-      "pricePLN": 499,
-      "priceUSD": 99,
+      "type": "phone",
+      "category": "etui",
+      "subcategory": "iPhone 17 Pro Max",
+      "productName": "Wzmocnione etui na Apple iPhone 17 Pro Max",
+      "brand": "XYZ",
+      "pricePLN": 149,
+      "priceUSD": 39,
       "photos": [
-        "http://localhost:3000/product-photos/children-shoes-1.jpg",
-        "http://localhost:3000/product-photos/children-shoes-2.jpg",
-        "http://localhost:3000/product-photos/children-shoes-3.jpg"
+        "http://localhost:3000/product-photos/etui-iphone-1.png",
+        "http://localhost:3000/product-photos/etui-iphone-2.png",
+        "http://localhost:3000/product-photos/etui-iphone-3.png"
       ],
       "description": "Lorem ipsum dolor sit amet consectetur, adipisicing elit. Nulla facilis aperiam, magnam dolorum sit expedita nihil nostrum, voluptates temporibus voluptatum atque ullam molestiae provident dolore eligendi? Esse amet dolore illum.",
       "maintenanceInfo": "Nemo et nam quasi in suscipit earum odit laborum repellat quo dolore rem, sequi eaque sapiente quibu"

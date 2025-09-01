@@ -12,3 +12,18 @@ export const TYPES = [
     path: "smartwatch",
   },
 ];
+
+export const CATEGORIES = [
+  {
+    categoryName: "Etui",
+    path: "etui",
+  },
+  {
+    categoryName: "Szkło",
+    path: "szklo",
+  },
+  {
+    categoryName: "Folia",
+    path: "folia",
+  },
+];
