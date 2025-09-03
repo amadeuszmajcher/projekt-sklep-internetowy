@@ -3,12 +3,24 @@ import "./styles/globals.css";
 import { StrictMode } from "react";
 import { createRoot } from "react-dom/client";
 import { createBrowserRouter, RouterProvider } from "react-router-dom";
-import { ProductDetails } from "./views/ProductDetails/ProductDetails.jsx";
+import { Layout } from "./components/Layout/Layout";
+import { Cart } from "./views/Cart/Cart";
+import { Favourites } from "./views/Favourites/Favourites";
 
 const router = createBrowserRouter([
   {
-    path: "/",
-    element: <ProductDetails />,
+    path: "",
+    element: <Layout />,
+    children: [
+      {
+        path: "/koszyk",
+        element: <Cart />,
+      },
+      {
+        path: "/ulubione",
+        element: <Favourites />,
+      },
+    ],
   },
 ]);
 
