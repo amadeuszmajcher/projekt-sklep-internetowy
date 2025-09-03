@@ -3,6 +3,7 @@ import { FlexContainer } from "../../components/FlexContainer/FlexContainer";
 import { ExpandableMenu } from "../../components/ExpandableMenu/ExpandableMenu";
 import { Breadcrumbs } from "../../components/Breadcrumbs/Breadcrumbs";
 import { Products } from "../../components/Products/Products";
+import { Pagination } from "../../components/Pagination/Pagination";
 export function ProductsList() {
   const products = [
     {
@@ -127,6 +128,7 @@ export function ProductsList() {
         <div>
           <Breadcrumbs />
           <Products headerText="iPhone 17 Pro Max" products={products} />
+          <Pagination numberOfPages={5} />
         </div>
       </FlexContainer>
     </Layout>
