@@ -2,7 +2,19 @@ import styles from "./Details.module.css";
 import CAR_ICON from "../../assets/car.svg";
 import RETURN_ICON from "../../assets/return.svg";
 import { FullWidthButton } from "../FullWidthButton/FullWidthButton";
+import { Accordion } from "../Accordion/Accordion";
 export function Details({ product }) {
+  const accordionContent = [
+    {
+      title: "Opis produktu",
+      content: product.description,
+    },
+    {
+      title: "Wskazówki",
+      content: product.maintenanceInfo,
+    },
+  ];
+
   return (
     <div className={styles.details}>
       <h2>{product.brand}</h2>
@@ -19,6 +31,7 @@ export function Details({ product }) {
           Zwrot do 100 dni
         </li>
       </ul>
+      <Accordion items={accordionContent} />
     </div>
   );
 }
