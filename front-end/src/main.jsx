@@ -3,12 +3,13 @@ import "./styles/globals.css";
 import { StrictMode } from "react";
 import { createRoot } from "react-dom/client";
 import { createBrowserRouter, RouterProvider } from "react-router-dom";
-import { Favourites } from "./views/Favourites/Favourites.jsx";
+
+import { Cart } from "./views/Cart/Cart.jsx";
 
 const router = createBrowserRouter([
   {
     path: "/",
-    element: <Favourites />,
+    element: <Cart />,
   },
 ]);
 
