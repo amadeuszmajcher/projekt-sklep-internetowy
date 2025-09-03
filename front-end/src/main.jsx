@@ -6,6 +6,8 @@ import { createBrowserRouter, RouterProvider } from "react-router-dom";
 import { Layout } from "./components/Layout/Layout";
 import { Cart } from "./views/Cart/Cart";
 import { Favourites } from "./views/Favourites/Favourites";
+import { MainPage } from "./views/MainPage/MainPage";
+import { mainPageLoader } from "./api/mainPageLoader";
 
 const router = createBrowserRouter([
   {
@@ -19,6 +21,11 @@ const router = createBrowserRouter([
       {
         path: "/ulubione",
         element: <Favourites />,
+      },
+      {
+        path: "/:type?",
+        element: <MainPage />,
+        loader: mainPageLoader,
       },
     ],
   },
