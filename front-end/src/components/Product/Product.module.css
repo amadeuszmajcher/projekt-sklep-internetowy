@@ -2,6 +2,9 @@
   position: relative;
   max-width: 350px;
 }
+.product button {
+  border: none;
+}
 .product img {
   width: 350px;
   height: 400px;
