@@ -10,6 +10,8 @@ import { MainPage } from "./views/MainPage/MainPage";
 import { mainPageLoader } from "./api/mainPageLoader";
 import { ProductsList } from "./views/ProductsList/ProductsList";
 import { productListLoader } from "./api/productListLoader";
+import { ProductDetails } from "./views/ProductDetails/ProductDetails";
+import { productLoader } from "./api/productLoader";
 
 const router = createBrowserRouter([
   {
@@ -33,6 +35,11 @@ const router = createBrowserRouter([
         path: "/:type/:category/:subcategory?",
         element: <ProductsList />,
         loader: productListLoader,
+      },
+      {
+        path: "/:type/:category/:subcategory/:productId",
+        element: <ProductDetails />,
+        loader: productLoader,
       },
     ],
   },
