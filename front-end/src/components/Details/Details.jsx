@@ -3,7 +3,11 @@ import CAR_ICON from "../../assets/car.svg";
 import RETURN_ICON from "../../assets/return.svg";
 import { FullWidthButton } from "../FullWidthButton/FullWidthButton";
 import { Accordion } from "../Accordion/Accordion";
+import { useContext } from "react";
+import { CartContext } from "../../contexts/CartContext";
 export function Details({ product }) {
+  const [, setCartItems] = useContext(CartContext);
+
   const accordionContent = [
     {
       title: "Opis produktu",
@@ -20,7 +24,16 @@ export function Details({ product }) {
       <h2>{product.brand}</h2>
       <p className={styles.productName}>{product.productName}</p>
       <p className={styles.price}>{product.pricePLN}zł</p>
-      <FullWidthButton isBlack={true}>Dodaj do koszyka</FullWidthButton>
+      <FullWidthButton
+        onClick={() => {
+          setCartItems((previousCartItems) => {
+            return [...previousCartItems, product];
+          });
+        }}
+        isBlack={true}
+      >
+        Dodaj do koszyka
+      </FullWidthButton>
       <ul className={styles.extraInfo}>
         <li>
           <img src={CAR_ICON} />
